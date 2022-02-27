@@ -1,0 +1,27 @@
+import java.util.*;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		
+		int s,e,w;
+        Scanner sc=new Scanner(System.in);
+         s=sc.nextInt();
+         e=sc.nextInt();
+         w=sc.nextInt();
+        int cf=s;
+         
+        while(cf<=e)
+        {
+            int cc = (5*(cf-32))/9;
+            System.out.println(cf+" "+cc);
+                cf = cf + w;
+        }
+        
+        
+        
+
+		
+	}
+
+}
