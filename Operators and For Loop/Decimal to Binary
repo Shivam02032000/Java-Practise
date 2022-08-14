@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main {
+    
+	public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int d=0,n,r,t=1;
+        n = s.nextInt();
+        while(n!=0)
+        {
+            r = n%2;
+            d = d + r*t;
+            t = 10*t;
+            n=n/10;
+        }
+    System.out.print(d);
+	
+		
+
+	}
+}
